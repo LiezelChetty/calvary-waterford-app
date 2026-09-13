@@ -1,1 +1,23 @@
-{"name":"calvary-waterford-app","version":"0.1.0","private":true,"main":"node_modules/expo/AppEntry.js","scripts":{"start":"expo start","android":"expo start --android","ios":"expo start --ios","web":"expo start --web"},"dependencies":{"expo":"latest","expo-status-bar":"latest","react":"latest","react-native":"latest","@expo/vector-icons":"latest"}}
+{
+  "name": "calvary-waterford-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~57.0.21",
+    "expo-status-bar": "~57.0.0",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "@expo/vector-icons": "^15.0.2"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "@types/react": "~19.2.4"
+  }
+}

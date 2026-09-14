@@ -18,6 +18,18 @@
     "plugins": [
       "expo-font",
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "96f82279-1a92-4a2d-a3ed-fc2dee6e69b2"
+      }
+    },
+    "owner": "mrs_chetty",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/96f82279-1a92-4a2d-a3ed-fc2dee6e69b2"
+    }
   }
 }

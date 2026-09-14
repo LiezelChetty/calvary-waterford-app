@@ -1,1 +1,23 @@
-{"expo":{"name":"Calvary Waterford","slug":"calvary-waterford","version":"0.1.0","orientation":"portrait","userInterfaceStyle":"light","splash":{"resizeMode":"contain","backgroundColor":"#F7F3EA"},"ios":{"supportsTablet":true,"bundleIdentifier":"ie.calvarywaterford.app"},"android":{"package":"ie.calvarywaterford.app"},"web":{"bundler":"metro"}}}
+{
+  "expo": {
+    "name": "Calvary Waterford",
+    "slug": "calvary-waterford",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ie.calvarywaterford.app"
+    },
+    "android": {
+      "package": "ie.calvarywaterford.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ]
+  }
+}

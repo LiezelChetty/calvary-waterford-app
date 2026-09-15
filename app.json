@@ -1,19 +1,29 @@
 {
   "expo": {
     "name": "Calvary Waterford",
+    "description": "Calvary Waterford — Scripture, teaching, prayer and community.",
     "slug": "calvary-waterford",
     "version": "0.1.0",
     "orientation": "portrait",
+    "icon": "./assets/calvary-waterford-icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "ie.calvarywaterford.app"
     },
     "android": {
-      "package": "ie.calvarywaterford.app"
+      "package": "ie.calvarywaterford.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/calvary-waterford-icon.png",
+        "backgroundColor": "#F6F1E7"
+      }
     },
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+      "favicon": "./assets/calvary-waterford-icon.png",
+      "name": "Calvary Waterford",
+      "shortName": "Calvary Waterford",
+      "description": "Calvary Waterford — Scripture, teaching, prayer and community."
     },
     "plugins": [
       "expo-font",
